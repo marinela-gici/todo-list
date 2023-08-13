@@ -8,15 +8,12 @@ const Items = () => {
     const onButtonClick = (e) => {
         e.preventDefault();
         if(input) {
-            // var item = {value: input};
             setItems((previousValue) => [...previousValue, {label:input, checked: false}]);
             setInput("");
         }
     }
 
     const checkItem = (index) => {
-        
-        // find item = items[index] element
         if(typeof items[index] === 'undefined') {
             return;
         } 
@@ -53,9 +50,7 @@ const Items = () => {
                     );
                 })
             }
-            </ul>
-            
-        
+            </ul>     
         </>
     )
 }
