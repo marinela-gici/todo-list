@@ -1,0 +1,44 @@
+.line-through {
+    text-decoration: line-through;
+}
+
+.input-field {
+    margin: 10px;
+}
+
+.input-field input {
+    background-color: #efefef;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.input-field button {
+    background-color: #0019f8; 
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.list {
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+.list li {    
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+li label input {
+    margin: 0 30px 0 10px;
+}
+
+.delete-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 20px;
+}
